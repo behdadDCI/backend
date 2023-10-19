@@ -6,7 +6,7 @@ const dbConnect = () => {
             useUniFiedTopology: true,
             useNewUrlParser: true,
         })
-        console.log("db conected !!!")
+        console.log("db connected !!!")
     } catch (error) {
         console.log(error)
     }
